@@ -1,0 +1,273 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:  'Bebas Neue', cursive;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a, a:hover{
+text-decoration: none;
+}
+
+/* global tittle css  start ---for tittle of sections */
+.title{
+width: 100%;
+padding: 20px 0px;
+}
+.title h4{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #3d2514;
+}
+
+.title h1{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 42px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #3d2514;
+
+}
+ /* header code start */
+.header{
+    width: 100%;
+    height: 100vh;
+   background: url("../images/banner.jpg") center top no-repeat;
+    background-size: cover;
+}
+
+.header .navbar-nav .nav-item  .nav-link{
+    font-size: 14px;
+    color: #3d2514;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 25px;
+}
+.banner{
+    width: 100%;
+    padding: 60px 0px;
+}
+.inner-banner h4{
+font-size: 12px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #3d2514;
+padding: 10px 0px 0px 10px;
+margin: 20px;
+border: 1px dotted #3d2514;
+}
+
+.inner-banner h1{
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+   color:#3d2514;
+   
+}
+.inner-banner p{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #3d2514;
+
+}
+
+/* tasty css start */
+.tasty{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.tasty .title {
+    width: 100%;
+    padding: 0px 0px 0px 65px; 
+    text-align: center;
+
+
+}
+.tasty .title  h6{
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 24px;
+    text-transform: uppercase;
+    background-color: #ffc045;
+   color: #3d2514;
+
+}
+.tasty .title p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+   color:#996666;
+}
+
+.tasty  .inner-burger{
+    width: 100%;
+    padding: 40px 0px 60px;
+}
+
+.tasty .inner-burger .img-fluid{
+    width: 100px;
+    height: 100px;
+ 
+}
+.tasty .inner-burger h4{
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+     color: #3d2514;
+}
+
+
+.tasty .inner-burger p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #996666;
+}
+
+.tasty .inner-burger .btn-primary{
+        padding: 15px 30px;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+        border-radius: 2px;
+        letter-spacing: 1px;
+        color:#fff; 
+        background-color:#bf2222;
+        border: 1px solid #bf2222;
+        transition: 1s;
+}
+    .tasty .inner-burger .btn-primary:hover ,.tasty .inner-burger .btn-primary:focus{
+        color:#fff;
+        background-color:transparent;
+        border: 1px solid#bf2222;
+    }
+    /* upcoming css start */
+    .events{
+        width: 100%;
+        padding: 60px 0px;
+    }
+    .events p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+       color:#808080;
+       }
+
+
+
+
+/* contact css code start */
+.Reservation{
+    width: 100%;
+    padding: 80px 0px 0px;
+    background: url("../images/reserve.jpg") center top no-repeat;
+    background-size: cover;
+}
+
+.Reservation .title {
+    width: 100%;
+    padding: 0px 0px 40px;
+    text-align: center;
+}
+
+
+.reserve-form{
+    width: 100%;
+    padding: 70px 50px 50px;
+   
+}
+
+.reserve-form .form-control{
+    padding: 17px  12px;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: transparent;
+    color: #999;
+    border: 1px solid #999;
+}
+.reserve-form  .form-control{
+    background: transparent;
+    border: 1px solid #999;
+    box-shadow: 0 0 0 0 #999;
+}
+
+.reserve-form  .submit{
+    width: 100%;
+    text-align: right;
+
+}
+
+.reserve-form .submit .btn-primary{
+    padding: 15px 90px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    color:#fff;
+    background-color:#bf2222;
+    border: 1px solid#bf2222;
+    transition: 1s;
+}
+
+.reserve-form  .submit .btn-primary:hover ,.reserve-form .submit .btn-primary:focus{
+    color:#fff;
+    background-color:transparent;
+    border: 1px solid#bf2222;
+}
+
+
+/* footer css start */
+
+.footer{
+    width: 100%;
+    padding: 80px 0px 0px;
+    background: url("../images/footerimg.jpg") center top no-repeat;
+    background-size: cover;
+}
+
+.footer .inner-left{
+    width: 100%;
+}
+.footer .inner-left p{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #996666;
+}
+
+.footer .inner-left .copyright{
+width: 100%;
+    padding: 80px 0px 0px;
+    font-size: 16px;
+    line-height: 26px;
+    color:#fff;
+    text-transform: uppercase;
+}
